@@ -12,6 +12,10 @@ A browser extension that allows you to quickly empty your Notion trash with a si
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select the extension directory
 
+## Download
+
+You can also download the extension directly from the Chrome Web Store: [Notion Empty Trash Extension](<>)
+
 ## Usage
 
 1. Navigate to any Notion page
