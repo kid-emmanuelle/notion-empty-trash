@@ -1,7 +1,14 @@
 document.getElementById('deleteButton').addEventListener('click', async () => {
   const statusDiv = document.getElementById('status');
+  const deleteButton = document.getElementById('deleteButton');
   
   try {
+    // Disable button and show loading animation
+    // deleteButton.disabled = true;
+    statusDiv.innerHTML = '<div class="spinner"></div>';
+    statusDiv.className = 'status loading';
+    statusDiv.style.display = 'block';
+    
     // Get the active tab
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     
@@ -25,6 +32,9 @@ document.getElementById('deleteButton').addEventListener('click', async () => {
     statusDiv.textContent = error.message;
     statusDiv.className = 'status error';
     statusDiv.style.display = 'block';
+  } finally {
+    // Re-enable button
+    deleteButton.disabled = false;
   }
 });
 
