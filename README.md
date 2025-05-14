@@ -14,7 +14,7 @@ A browser extension that allows you to quickly empty your Notion trash with a si
 
 ## Download
 
-You can also download the extension directly from the Chrome Web Store: [Notion Empty Trash Extension](<>)
+You can also download the extension directly from the Chrome Web Store: [Notion Empty Trash Extension](<https://chromewebstore.google.com/detail/ljhilkjedphonjhahfdedoldogoogpmj?utm_source=item-share-cb>)
 
 ## Usage
 
